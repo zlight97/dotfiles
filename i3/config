@@ -12,7 +12,7 @@ new_window pixel 2
 #hide_edge_borders smart
 
 # Auto-starts
-exec_always --no-startup-id $HOME/.config/polybar/polybar.sh
+exec_always --no-startup-id polybar &
 #exec --no-startup-id nitrogen --set-scaled ~/Pictures/tree.jpg
 # exec --no-startup-id wal -i  ~/Pictures/fireworks.jpg
 #exec --no-startup-id feh --bg-scale ~/Pictures/fireworks.jpg
